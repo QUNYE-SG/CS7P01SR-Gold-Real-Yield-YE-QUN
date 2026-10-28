@@ -1,0 +1,24 @@
+# Credentials and machine settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+# Data, generated reports and private notification state
+data/
+output/
+tests/fixtures/
+*.csv
+*.log
+*.zip
+# Runtime/editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
